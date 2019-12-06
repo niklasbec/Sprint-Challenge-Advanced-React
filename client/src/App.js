@@ -5,7 +5,7 @@ import {useLocalStorage} from './components/hooks/hooks'
 
 function App() {
 
-  const [storedValue, setStoredValue] = useLocalStorage('Anon')
+  const [storedValue, setStoredValue] = useLocalStorage('User')
 
   const submit = function (e) {
     e.preventDefault();
