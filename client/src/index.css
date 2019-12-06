@@ -14,10 +14,15 @@ code {
 
 .athlete {
   width: 40vw;
-  height: 15vh;
+  height: 150px;
   background-color: aqua;
   border-radius: 5px;
   margin: 0 auto;
   padding-top: 10px;
   margin-bottom: 20px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
 }
